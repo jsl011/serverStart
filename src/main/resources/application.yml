@@ -1,0 +1,14 @@
+server:
+  port: 7852
+
+spring:
+  datasource:
+    url: jdbc:mysql://175.178.220.117:3306/demoStart?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    username: root
+    password: 8888
+
+# mybatis-plus
+mybatis-plus:
+  configuration:
+    #开启驼峰命名
+    map-underscore-to-camel-case: true
